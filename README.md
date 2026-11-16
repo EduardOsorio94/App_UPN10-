@@ -3,6 +3,8 @@
 Aplicación web que detecta enfermedades en hojas de caña de azúcar a partir de una fotografía, usando una red
 neuronal convolucional **EfficientNetB0 con ajuste fino** (aprendizaje por transferencia).
 
+**🔗 App en línea: https://canasana-upn.streamlit.app/**
+
 Proyecto del curso *Sistemas Inteligentes y Machine Learning*, Universidad Privada del Norte (UPN), 2026-2.
 
 ## ¿Qué hace?
