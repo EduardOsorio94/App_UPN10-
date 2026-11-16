@@ -1,0 +1,16 @@
+{
+  "modelo": "M3 EfficientNetB0 + ajuste fino",
+  "exactitud": 0.8898550724637682,
+  "f1_macro": 0.8885190255065396,
+  "precision_macro": 0.8916718397339032,
+  "recall_macro": 0.887967244824176,
+  "recall_por_clase": {
+    "Sana": 0.9577464788732394,
+    "Mosaico": 0.8596491228070176,
+    "Pudrición roja": 0.9090909090909091,
+    "Roya": 0.8484848484848485,
+    "Hoja amarilla": 0.8648648648648649
+  },
+  "imagenes_prueba": 345,
+  "imagenes_total": 2300
+}

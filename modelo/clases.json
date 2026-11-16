@@ -1,0 +1,31 @@
+{
+  "modelo": "M3 EfficientNetB0 + ajuste fino",
+  "clases": [
+    "Healthy",
+    "Mosaic",
+    "RedRot",
+    "Rust",
+    "Yellow"
+  ],
+  "nombres_es": {
+    "Healthy": "Sana",
+    "Mosaic": "Mosaico",
+    "RedRot": "Pudrición roja",
+    "Rust": "Roya",
+    "Yellow": "Hoja amarilla"
+  },
+  "recomendaciones": {
+    "Healthy": "Hoja sin síntomas visibles. Mantener el monitoreo periódico del lote.",
+    "Mosaic": "Posible virus del mosaico, transmitido por pulgones. Separar las plantas muy afectadas, controlar los insectos vectores y usar semilla sana. Confirmar con un especialista.",
+    "RedRot": "Posible pudrición roja (hongo Colletotrichum falcatum). Retirar los tallos afectados, no usarlos como semilla y consultar a un especialista.",
+    "Rust": "Posible roya. Vigilar si se extiende en el lote, preferir variedades resistentes y consultar a un especialista sobre su control.",
+    "Yellow": "Posible síndrome de la hoja amarilla (virus transmitido por pulgones). Descartar falta de agua o nutrientes y confirmar con un especialista."
+  },
+  "tamano_entrada": [
+    224,
+    224,
+    3
+  ],
+  "umbral_confianza_especialista": 0.7,
+  "preprocesamiento": "RGB, orientación EXIF, redimensionar a 224x224 (bilineal), píxeles float32 en [0, 255]; la normalización está dentro del modelo"
+}
